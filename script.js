@@ -40,7 +40,7 @@ slide.addEventListener('transitionend', () =>{
     }
     if(slides[index].id === lastClone.id) {
         slide.style.transition = `none`;
-        index = slides.length - 1;
+        index = slides.length - 2;
         slide.style.transform = `translateX(${-slideWidth * index}px)`;
     }
 });
